@@ -11,7 +11,7 @@ $user_name = $_POST["user_name"];
 if (!empty($user_name)){
     if (isset ($_POST["send"])) {
         setcookie("user_name", $user_name, time()+3600);
-        header('Location: pag3.php');
+        header('Location: pag3(2).php');
     }
 } else {
     header('Location: pag1.php');
