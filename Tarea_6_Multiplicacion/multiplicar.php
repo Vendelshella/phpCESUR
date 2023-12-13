@@ -8,13 +8,18 @@
         td {
             border: 1px solid black;
         }
+        span {
+            background-color: lightblue;
+            font-weight: bold;
+            width: 190px;
+            
+        }
+        
     </style>
 </head>
 <body>
     <?php
     $tablas = ["primera" => 5, "segunda" => 13, "tercera" => 11];
-
-    
     ?>
     <table>
         <tr>
@@ -23,10 +28,9 @@
             ?>
             <td>
                 <?php 
-                    echo "Tabla $key" . "<br>";
+                    echo "<span>Tabla $key</span>" . "<br>";
 
                     for ($i=1; $i <= 10; $i++) { 
-                        
                         echo "$value x $i = " . $value * $i . "<br>";
                     }
                 }
