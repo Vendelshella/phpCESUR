@@ -11,8 +11,7 @@
         span {
             background-color: lightblue;
             font-weight: bold;
-            width: 190px;
-            
+
         }
         
     </style>
