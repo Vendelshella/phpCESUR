@@ -15,8 +15,6 @@
         th {
             background-color: lightblue;
             font-weight: bold;
-            width: 190px;
-            
         }
     </style>
 </head>
@@ -37,7 +35,7 @@
                         <?php echo "$value x $i = " . $value * $i . "<br>"; ?>
                         </td>
                     </tr>
-                <?php } // end for?>
+                <?php } // end for ?>
             </table>
         <?php } // end foreach ?>
 </body>
