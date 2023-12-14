@@ -14,7 +14,9 @@
         }
         th {
             background-color: lightblue;
-            font-weight: bold;         
+            font-weight: bold;
+            width: 190px;
+            
         }
     </style>
 </head>
